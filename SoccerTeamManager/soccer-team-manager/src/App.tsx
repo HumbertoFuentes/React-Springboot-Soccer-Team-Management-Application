@@ -12,6 +12,7 @@ import Schedule from './components/Schedule';
 import EditPlayerForm from './components/EditPlayerForm';
 import AddMatchForm from './components/AddMatchForm';
 import EditGameForm from './components/EditGameForm';
+import Login from './components/Login';
 
 const App: React.FC = () => {
 
