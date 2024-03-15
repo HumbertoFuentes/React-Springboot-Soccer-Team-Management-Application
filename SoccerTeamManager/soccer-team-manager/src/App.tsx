@@ -31,6 +31,7 @@ const App: React.FC = () => {
               <Route path="/schedule/:gameid" element={<AddMatchForm/>}/>
               <Route path="/schedule/editGame/:gameid" element={<EditGameForm/>}/>
               <Route path='squad/editPlayer/:id' element={<EditPlayerForm/>} />
+              <Route path='/login' element={<Login/>} />
             </Routes>
           </div>
         </div>
